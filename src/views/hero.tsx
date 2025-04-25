@@ -1,7 +1,8 @@
 'use client'
 import React from "react"
-import NossaHistoria from "./NossaHistoria";
-import NossosProjetos from "./NossosProjetos";
+import NossaHistoria from "../components/NossaHistoria";
+import NossosProjetos from "../components/NossosProjetos";
+import NossosPatrocinadores from "@/components/NossosPatrocinadores";
 
 const Hero: React.FC = () => {
 
@@ -9,6 +10,7 @@ const Hero: React.FC = () => {
         <div className="p-4 text-2xl">
             <NossaHistoria />
             <NossosProjetos />
+            <NossosPatrocinadores />
         </div>
     );
 };
