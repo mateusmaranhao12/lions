@@ -4,6 +4,7 @@ import NossaHistoria from "../components/NossaHistoria";
 import NossosProjetos from "../components/NossosProjetos";
 import NossosPatrocinadores from "@/components/NossosPatrocinadores";
 import RedesSociais from "@/components/RedesSociais";
+import Registros from "@/components/Registros";
 
 const Hero: React.FC = () => {
 
@@ -13,6 +14,7 @@ const Hero: React.FC = () => {
             <NossosProjetos />
             <NossosPatrocinadores />
             <RedesSociais />
+            <Registros />
         </div>
     );
 };
