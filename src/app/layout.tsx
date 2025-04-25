@@ -28,6 +28,9 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{
+          background: "linear-gradient(180deg, rgba(122, 37, 130, 1) 0%, rgba(0, 51, 141, 1) 50%, rgba(255, 255, 255, 1) 100%)",
+        }}
       >
         <div className="flex flex-col min-h-screen">
           <Navbar />
