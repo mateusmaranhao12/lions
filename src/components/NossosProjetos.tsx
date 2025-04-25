@@ -41,32 +41,38 @@ export default function NossosProjetos() {
                 <h3 className="text-xl font-semibold mb-6">{projeto.titulo}</h3>
 
                 {/* Imagem com setas */}
-                <div className="relative flex justify-center items-center mb-4">
-                    <button
-                        onClick={anterior}
-                        className="absolute left-0 text-3xl px-2 hover:text-yellow-300 cursor-pointer"
-                        aria-label="Anterior"
-                    >
-                        &#10094;
-                    </button>
-
-                    <div className="overflow-hidden rounded-xl w-full max-w-md">
+                <div className="flex flex-col items-center mb-4">
+                    {/* Container fixo da imagem + setas */}
+                    <div className="relative w-full max-w-7xl h-[300px] rounded-xl overflow-hidden shadow-xl">
                         <Image
                             src={projeto.imagem}
                             alt={projeto.titulo}
-                            width={600}
-                            height={400}
-                            className="w-full h-auto object-cover"
+                            width={1200}
+                            height={300}
+                            className="w-full h-full object-cover"
                         />
+
+                        <button
+                            onClick={anterior}
+                            className="absolute left-4 top-1/2 -translate-y-1/2 text-white text-3xl z-10 hover:text-yellow-300 cursor-pointer"
+                            aria-label="Anterior"
+                        >
+                            &#10094;
+                        </button>
+
+                        <button
+                            onClick={proximo}
+                            className="absolute right-4 top-1/2 -translate-y-1/2 text-white text-3xl z-10 hover:text-yellow-300 cursor-pointer"
+                            aria-label="Próximo"
+                        >
+                            &#10095;
+                        </button>
                     </div>
 
-                    <button
-                        onClick={proximo}
-                        className="absolute right-0 text-3xl px-2 hover:text-yellow-300 cursor-pointer"
-                        aria-label="Próximo"
-                    >
-                        &#10095;
-                    </button>
+                    {/* Texto fixo abaixo, separado da imagem */}
+                    <p className="mt-6 max-w-3xl text-center text-white text-sm md:text-base">
+                        {projeto.descricao}
+                    </p>
                 </div>
 
                 {/* Descrição */}
