@@ -1,7 +1,14 @@
-import Image from "next/image"
-import { notFound } from "next/navigation"
+import { notFound } from "next/navigation";
+import Image from "next/image";
 
-const causasDetalhes = {
+interface CausaDetalhe {
+    titulo: string;
+    descricao: string;
+    icone: string;
+    imagens: string[];
+}
+
+const causasDetalhes: Record<string, CausaDetalhe> = {
     juventude: {
         titulo: 'Juventude de LCIF',
         descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec iaculis risus. Proin efficitur massa eget quam mollis, eget vulputate eros suscipit. Nam commodo eu velit in tempor.',
@@ -92,8 +99,8 @@ const causasDetalhes = {
 
 };
 
-export default async function CausaPage({ params }: { params: { slug: string } }) {
-    const causa = causasDetalhes[params.slug as keyof typeof causasDetalhes];
+export default function CausaPage({ params }: { params: { slug: string } }) {
+    const causa = causasDetalhes[params.slug];
 
     if (!causa) {
         notFound();
