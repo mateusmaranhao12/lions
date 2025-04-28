@@ -92,11 +92,11 @@ const causasDetalhes = {
 
 };
 
-export default function CausaPage({ params }: { params: { slug: string } }) {
+export default async function CausaPage({ params }: { params: { slug: string } }) {
     const causa = causasDetalhes[params.slug as keyof typeof causasDetalhes];
 
     if (!causa) {
-        return notFound();
+        notFound();
     }
 
     return (
