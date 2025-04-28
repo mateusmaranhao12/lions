@@ -17,10 +17,10 @@ const Navbar: React.FC = () => {
             <div className="relative z-10 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 {/* Logo e Nome */}
                 <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
-                    <div className="flex items-center gap-2">
+                    <Link href="/" className="cursor-pointer flex items-center gap-2">
                         <Image src="/assets/logo_white.png" alt="Logo" width={40} height={40} />
                         <span className="font-bold text-lg">LionsBertaLuz</span>
-                    </div>
+                    </Link>
                 </div>
 
                 {/* Links */}
