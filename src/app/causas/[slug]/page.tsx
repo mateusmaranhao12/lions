@@ -92,19 +92,19 @@ const causasDetalhes = {
 
 };
 
-export default async function CausaPage({ params }: { params: { slug: string } }) {
+export default function CausaPage({ params }: { params: { slug: string } }) {
     const causa = causasDetalhes[params.slug as keyof typeof causasDetalhes];
 
     if (!causa) {
-        notFound();
+        return notFound();
     }
 
     return (
         <div className="p-10 text-white">
             <h1 className="text-3xl font-bold text-center mb-10">Nossas Causas</h1>
 
-            <div className="grid md:grid-cols-2 gap-10 items-center mb-10">
-                <div className="bg-violet-700 rounded-xl flex flex-col items-center justify-center p-6">
+            <div className="grid md:grid-cols-2 gap-8 items-center mb-10">
+                <div className="bg-purple-700 rounded-xl flex flex-col items-center justify-center p-6">
                     <Image src={causa.icone} alt={causa.titulo} width={100} height={100} />
                     <h2 className="text-xl font-semibold mt-4">{causa.titulo}</h2>
                 </div>
