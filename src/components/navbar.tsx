@@ -25,6 +25,9 @@ const Navbar: React.FC = () => {
 
                 {/* Links */}
                 <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-6">
+                    <Link href="/" className={`hover:underline ${pathname === "/" ? "font-bold text-yellow-400" : ""}`}>
+                        Home
+                    </Link>
                     <Link href="/causas" className={`hover:underline ${pathname === "/causas" ? "font-bold text-yellow-400" : ""}`}>
                         Nossas Causas
                     </Link>
