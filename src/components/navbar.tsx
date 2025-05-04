@@ -28,13 +28,21 @@ const Navbar: React.FC = () => {
                     <Link href="/causas" className={`hover:underline ${pathname === "/causas" ? "font-bold text-yellow-400" : ""}`}>
                         Nossas Causas
                     </Link>
-                    <Link href="/patrocinador" className={`hover:underline ${pathname === "/patrocinador" ? "font-bold text-yellow-400" : ""}`}>
+                    <Link
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSc2KutRU0XBKP5pLBK0yHD9ZIBCxPEOXZO3vlTFkIJWre3cFA/viewform"
+                        target="_blank"
+                        className={`hover:underline ${pathname === "/patrocinador" ? "font-bold text-yellow-400" : ""}`}>
                         Seja um patrocinador
                     </Link>
-                    <Link href="/junte-se" className="bg-blue-800 px-4 py-2 rounded text-white text-center hover:bg-blue-700 transition">
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfLzCArNqUttGioSjpviNorxYdniSwuTUXzWNR28URp2WBPMQ/viewform"
+                        target="_blank"
+                        className="bg-blue-800 px-4 py-2 rounded text-white text-center hover:bg-blue-700 transition">
                         Junte-se a Nós
                     </Link>
-                    <Link href="/doacoes" className="bg-yellow-400 px-4 py-2 rounded text-black text-center hover:bg-yellow-300 transition">
+                    <Link
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSc350P6zdiVrEYzGY9rxxQbzlVLJGx6GmuQfEI2vHbCL5Ux_Q/viewform"
+                        target="_blank"
+                        className="bg-yellow-400 px-4 py-2 rounded text-black text-center hover:bg-yellow-300 transition">
                         Doações
                     </Link>
                 </div>
