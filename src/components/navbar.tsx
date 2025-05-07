@@ -6,16 +6,6 @@ import { usePathname } from "next/navigation"
 
 const Navbar: React.FC = () => {
     const pathname = usePathname()
-    const [showQR, setShowQR] = useState(false)
-    const [copiado, setCopiado] = useState(false)
-
-    const chavePix = "mateusnmaranhao@gmail.com"
-
-    const copiarPix = () => {
-        navigator.clipboard.writeText(chavePix)
-        setCopiado(true)
-        setTimeout(() => setCopiado(false), 3000)
-    }
 
     return (
         <>
