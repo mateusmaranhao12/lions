@@ -43,12 +43,12 @@ export default function NossosProjetos() {
                 {/* Imagem com setas */}
                 <div className="flex flex-col items-center mb-4">
                     {/* Container fixo da imagem + setas */}
-                    <div className="relative w-full max-w-7xl h-[300px] rounded-xl overflow-hidden shadow-xl">
+                    <div className="relative w-full max-w-8xl h-[300px] rounded-xl overflow-hidden shadow-xl">
                         <Image
                             src={projeto.imagem}
                             alt={projeto.titulo}
                             width={1200}
-                            height={300}
+                            height={500}
                             className="w-full h-full object-cover"
                         />
 
