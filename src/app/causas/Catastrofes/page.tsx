@@ -36,9 +36,14 @@ export default function Cancer() {
 
             {/* Botão de voluntário */}
             <div className="flex justify-center">
-                <button className="bg-blue-900 text-white font-bold px-8 py-4 rounded-full hover:bg-blue-800">
+                <a
+                    href="https://forms.gle/7L99bMAb9d2Dj6d38"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-900 text-white font-bold px-8 py-4 rounded-full hover:bg-blue-800"
+                >
                     Seja um voluntário
-                </button>
+                </a>
             </div>
 
             {/* Botão "Voltar" */}

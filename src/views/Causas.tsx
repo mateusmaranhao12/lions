@@ -16,7 +16,7 @@ export default function Causas() {
     ];
 
     return (
-        <div className="p-10 text-white">
+        <div className="p-10 text-white ml-20 mr-20">
             <h1 className="text-3xl font-bold text-center mb-10">Nossas Causas</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">

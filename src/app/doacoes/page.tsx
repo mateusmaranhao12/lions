@@ -16,7 +16,7 @@ const DoacoesPage = () => {
 
     return (
         <main className="min-h-screen flex flex-col items-center justify-center px-4 py-8">
-            <h1 className="text-2xl font-bold text-center mb-6 text-white">Como você quer doar?</h1>
+            <h1 className="text-6xl font-bold text-center mb-6 text-white">Como você deseja doar?</h1>
             <p className="text-justify text-sm md:text-base w-full max-w-5xl mx-auto text-white mb-8">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Proin lacinia volutpat condimentum. Vivamus faucibus risus dolor,
