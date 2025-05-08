@@ -14,7 +14,7 @@ export default function NossaHistoria() {
             <div className="absolute inset-0 bg-violet-900/70"></div>
 
             {/* Conteúdo centralizado */}
-            <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
+            <div className="relative z-10 max-w-6xl mx-auto text-center">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">Nossa História</h2>
                 <p className="text-sm md:text-base leading-relaxed text-justify mb-4">
                     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
