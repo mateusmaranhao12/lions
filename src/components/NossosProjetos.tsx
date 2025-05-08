@@ -43,7 +43,7 @@ export default function NossosProjetos() {
                 {/* Imagem com setas */}
                 <div className="flex flex-col items-center mb-4">
                     {/* Container fixo da imagem + setas */}
-                    <div className="relative w-full max-w-8xl h-[300px] rounded-xl overflow-hidden shadow-xl">
+                    <div className="relative w-full max-w-6xl h-[300px] rounded-xl overflow-hidden shadow-xl">
                         <Image
                             src={projeto.imagem}
                             alt={projeto.titulo}
@@ -70,7 +70,7 @@ export default function NossosProjetos() {
                     </div>
 
                     {/* Texto fixo abaixo, separado da imagem */}
-                    <p className="mt-6 max-w-3xl text-center text-white text-sm md:text-base">
+                    <p className="mt-6 max-w-7xl text-center text-white text-sm md:text-base">
                         {projeto.descricao}
                     </p>
                 </div>
