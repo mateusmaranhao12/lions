@@ -6,17 +6,26 @@ import { useState } from "react";
 const projetos = [
     {
         titulo: "Projeto Meio Ambiente",
-        descricao: `Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.`,
+        descricao: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Nam scelerisque dui vel sollicitudin elementum. Morbi egestas ornare ultrices. 
+            Praesent in posuere magna. Etiam blandit lobortis tellus, et aliquet augue 
+            sagittis eget. Etiam volutpat aliquet justo, ut imperdiet arcu blandit ut. 
+            Sed sollicitudin rutrum dignissim.`,
         imagem: "/assets/carrossel1.png"
     },
     {
         titulo: "Projeto Doação de Alimentos",
-        descricao: `Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.`,
+        descricao: `Ut sit amet eleifend diam, non porttitor est. Nunc finibus rutrum luctus. 
+            Quisque consectetur vulputate odio eget commodo. Phasellus nec eros vel mi facilisis 
+            ultrices accumsan ullamcorper purus. Nulla quis condimentum libero. 
+            Maecenas sit amet efficitur diam, a cursus nisi. Phasellus mollis velit erat, vitae 
+            commodo metus consequat id.`,
         imagem: "/assets/carrossel1.png"
     },
     {
         titulo: "Projeto Saúde Comunitária",
-        descricao: `Donec eu libero sit amet quam egestas semper. Vestibulum erat wisi, condimentum sed, commodo vitae.`,
+        descricao: `Nulla vel augue in lorem luctus tristique nec id est. Donec dignissim sit amet massa id mollis. 
+            In hac habitasse platea dictumst. Ut sed rhoncus eros. Suspendisse potenti.`,
         imagem: "/assets/carrossel1.png"
     }
 ];
@@ -70,15 +79,10 @@ export default function NossosProjetos() {
                     </div>
 
                     {/* Texto fixo abaixo, separado da imagem */}
-                    <p className="mt-6 max-w-7xl text-center text-white text-sm md:text-base">
+                    <p className="mt-6 max-w-6xl text-start text-white text-sm md:text-base">
                         {projeto.descricao}
                     </p>
                 </div>
-
-                {/* Descrição */}
-                <p className="text-justify text-sm md:text-base max-w-md mx-auto">
-                    {projeto.descricao}
-                </p>
             </div>
         </section>
     );
