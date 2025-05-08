@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Cancer() {
+export default function Visao() {
     return (
         <div className="p-10 text-white">
 
