@@ -9,7 +9,7 @@ import Registros from "@/components/Registros";
 const Hero: React.FC = () => {
 
     return (
-        <div className="p-4 text-2xl">
+        <div className="text-2xl">
             <NossaHistoria />
             <NossosProjetos />
             <NossosPatrocinadores />
