@@ -11,7 +11,7 @@ export default function NossosPatrocinadores() {
 
     return (
         <section className="py-12 px-4 text-white">
-            <div className="max-w-7xl mx-auto px-4 text-center">
+            <div className="max-w-6xl mx-auto px-4 text-center">
                 <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-6 place-items-center">
                     {registros.map((registro, index) => (
                         <Image
