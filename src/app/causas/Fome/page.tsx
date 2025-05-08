@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Fome() {
     return (
-        <div className="p-10 text-white">
+        <div className="max-w-7xl mx-auto px-4 text-white py-10">
 
             {/* Bloco do ícone + texto */}
             <div className="grid md:grid-cols-1 gap-8 items-center mb-10">
@@ -28,7 +28,7 @@ export default function Fome() {
                 </div>
 
                 {/* Texto descritivo */}
-                <p className="text-sm md:text-base text-justify max-w-2xl mx-auto text-white">
+                <p className="text-sm md:text-base text-justify max-w-7xl mx-auto text-white">
                     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                     Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
                     Donec eu libero sit amet quam egestas semper.

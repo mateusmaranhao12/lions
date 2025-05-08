@@ -36,7 +36,7 @@ export default function NossosProjetos() {
 
     return (
         <section className="py-12 px-4 text-white">
-            <div className="max-w-3xl mx-auto text-center">
+            <div className="max-w-7xl mx-auto px-4 text-center">
                 <h2 className="text-3xl font-bold mb-2">Nossos Projetos</h2>
                 <h3 className="text-xl font-semibold mb-6">{projeto.titulo}</h3>
 

@@ -16,9 +16,9 @@ export default function NossosPatrocinadores() {
 
     return (
         <section className="py-12 px-4 text-white">
-            <div className="max-w-5xl mx-auto text-center">
+            <div className="max-w-7xl mx-auto px-4 text-center">
                 <h2 className="text-3xl font-bold mb-10">Nossos Patrocinadores</h2>
-                <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-6 place-items-center">
+                <div className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-2 gap-6 place-items-center">
                     {patrocinadores.map((patrocinador, index) => (
                         <Image
                             key={index}
