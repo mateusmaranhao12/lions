@@ -5,40 +5,42 @@ import Link from "next/link";
 
 export default function Catastrofes() {
     return (
-        <div className="max-w-7xl mx-auto px-4 text-white py-10">
+        <div className="max-w-7xl mx-auto text-white">
 
-            {/* Bloco do ícone + texto */}
-            <div className="grid md:grid-cols-1 gap-8 items-center mb-10">
-                {/* Ícone da Causa - Versão circular com fundo */}
-                <div className="relative w-48 h-48 rounded-full overflow-hidden mx-auto shadow-lg">
-                    {/* Imagem de fundo */}
-                    <div
-                        className="absolute inset-0 bg-cover bg-center"
-                        style={{ backgroundImage: "url('/assets/catastrofe.jpg')" }}
-                    ></div>
+            <section
+                className="relative w-full bg-cover bg-center bg-no-repeat text-white py-16"
+                style={{
+                    backgroundImage: "url('/assets/nossa_historia.jpg')"
+                }}
+            >
 
-                    {/* Overlay roxo com opacidade */}
-                    <div className="absolute inset-0 bg-violet-800/70"></div>
+                {/* Overlay roxo com opacidade */}
+                <div className="absolute inset-0 bg-violet-900/70"></div>
 
-                    {/* Conteúdo centralizado */}
-                    <div className="relative z-10 flex flex-col items-center justify-center h-full text-center p-4">
-                        <Image src="/assets/causas3.png" alt="Catástrofes" width={80} height={80} className="mb-3" />
-                        <h2 className="text-lg font-semibold">Catástrofes</h2>
-                    </div>
+                {/* Conteúdo centralizado */}
+                <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-0 text-center">
+                    <h2 className="text-3xl md:text-4xl font-bold mb-6">Causa - Catástrofes</h2>
+                    <p className="text-sm md:text-base leading-relaxed text-justify mb-4">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
+                        sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+                        Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
+                        commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
+                        ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+                    </p>
+                    <p className="text-sm md:text-base leading-relaxed text-justify">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
+                        sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+                        Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
+                        commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
+                        ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+                    </p>
                 </div>
-
-                {/* Texto descritivo */}
-                <p className="text-sm md:text-base text-justify max-w-7xl mx-auto text-white">
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
-                    Donec eu libero sit amet quam egestas semper.
-                    Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-                    Quisque sit amet est et sapien.
-                </p>
-            </div>
+            </section>
 
             {/* Galeria de imagens */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 py-10 px-4">
                 <Image src="/assets/imagem1.png" alt="Projeto 1" width={400} height={300} className="rounded-lg object-cover w-full h-64" />
                 <Image src="/assets/imagem1.png" alt="Projeto 2" width={400} height={300} className="rounded-lg object-cover w-full h-64" />
                 <Image src="/assets/imagem1.png" alt="Projeto 3" width={400} height={300} className="rounded-lg object-cover w-full h-64" />
