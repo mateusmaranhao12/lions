@@ -53,14 +53,20 @@ export default function Causas() {
             icone: '/assets/causas8.png',
             fundo: '/assets/visao.jpg',
         },
+        {
+            nome: 'Saúde Mental',
+            slug: 'SaudeMental',
+            icone: '/assets/causas8.png',
+            fundo: '/assets/visao.jpg',
+        },
     ]
 
     return (
-        <div className="max-w-7xl mx-auto px-4 text-white py-10">
+        <div className="max-w-6xl mx-auto px-4 text-white py-10">
 
             <h1 className="text-6xl font-bold text-center mb-10">Conheça as nossas causas</h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {causas.map((causa, index) => (
                     <Link
                         key={index}

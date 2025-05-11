@@ -24,8 +24,8 @@ const Footer: React.FC = () => {
         {/* Direita - Contato */}
         <div className="text-md text-center md:text-right">
           <p className="font-bold">Contatos:</p>
-          <p>Telefone:<br />79 99999-99999</p>
-          <p className="mt-1">E-mail:<br /><a href="mailto:lions@gamil.com" className="underline">lions@gmail.com</a></p>
+          <p>Telefone:<br />79 99883-7670</p>
+          <p className="mt-1">E-mail:<br /><a href="mailto:lions@gamil.com" className="underline">lionsajuberthalutz@gmail.com</a></p>
         </div>
       </div>
     </footer>

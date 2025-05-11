@@ -3,11 +3,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Humanitarios() {
+export default function SaudeMental() {
     return (
         <div className="mx-auto text-white">
 
-            {/* Bloco do ícone + texto */}
             <section
                 className="relative w-full bg-cover bg-center bg-no-repeat text-white py-16"
                 style={{
@@ -20,20 +19,23 @@ export default function Humanitarios() {
 
                 {/* Conteúdo centralizado */}
                 <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-0 text-center">
-                    <h2 className="text-3xl md:text-6xl font-bold mb-6">Causa - Humanitários</h2>
+                    <h2 className="text-3xl md:text-6xl font-bold mb-6">Causa - Saúde Mental</h2>
                     <p className="text-sm md:text-2xl leading-relaxed text-justify mb-4">
-                        O Lions Clube Aracaju Bertha Lutz dedica-se à causa dos esforços humanitários,
-                        identificando as necessidades da comunidade e fornecendo ajuda humanitária
-                        onde é necessária funcionando como rede de apoio
-                    </p>
-                    {/*<p className="text-sm md:text-2xl leading-relaxed text-justify">
                         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                         Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
                         sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
                         Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
                         commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
                         ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-                    </p>*/}
+                    </p>
+                    <p className="text-sm md:text-2xl leading-relaxed text-justify">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
+                        sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+                        Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
+                        commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
+                        ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+                    </p>
                 </div>
             </section>
 
