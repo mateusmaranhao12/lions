@@ -16,20 +16,32 @@ const DoacoesPage = () => {
     }
 
     return (
-        <main className="min-h-screen flex flex-col md:items-center px-4 py-8">
-            <p className="text-justify text-sm md:text-base w-full max-w-5xl mx-auto text-white mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin lacinia volutpat condimentum. Vivamus faucibus risus dolor,
-                sit amet varius lectus hendrerit sit amet. Praesent faucibus risus
-                quis quam eleifend, vel efficitur risus accumsan. Curabitur ullamcorper
-                pharetra velit, at porta nunc tincidunt vitae. Etiam non arcu pharetra,
-                efficitur velit eget, tincidunt lorem. Curabitur faucibus urna felis,
-                id consequat velit ultricies sed. Phasellus quis tempus dui. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Duis tristique pharetra dictum. Nullam id magna cursus, consequat sem vel,
-                iaculis dui. Quisque eu augue id ipsum tristique dapibus id in sapien.
-                In iaculis euismod enim id dapibus.</p>
-            <h1 className="text-6xl font-bold text-center mb-6 text-white">Como você deseja doar?</h1>
+        <main className="min-h-screen flex flex-col md:items-center">
+            <section
+                className="relative w-full bg-cover bg-center bg-no-repeat text-white py-16"
+                style={{
+                    backgroundImage: "url('/assets/nossa_historia.jpg')"
+                }}
+            >
 
+                {/* Overlay roxo com opacidade */}
+                <div className="absolute inset-0 bg-violet-900/70"></div>
+
+                {/* Conteúdo centralizado */}
+                <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-0 text-center">
+                    <h1 className="text-6xl font-bold text-center mb-6 text-white">Faça uma doação</h1>
+                    <p className="text-sm md:text-2xl leading-relaxed text-justify mb-4">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
+                        sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+                        Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
+                        commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
+                        ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+                    </p>
+                </div>
+            </section>
+
+            <h1 className="text-6xl font-bold text-center mb-6 text-white mt-10">Como você deseja doar?</h1>
             <div className="flex flex-col md:flex-row gap-6">
                 <button
                     onClick={() => setShowQR(true)}
@@ -49,7 +61,6 @@ const DoacoesPage = () => {
 
             {showQR && (
                 <div className="mt-10 bg-white p-6 rounded-lg shadow-lg text-center max-w-sm w-full">
-                    <h2 className="text-xl font-semibold text-black mb-4">Doe via PIX</h2>
                     <Image
                         src="/assets/qrcode.png"
                         alt="QR Code PIX"

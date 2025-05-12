@@ -11,7 +11,7 @@ const projetos = [
         destinado aos aterros e promovendo práticas sustentáveis. Essa ação contribui 
         para o ciclo de reaproveitamento completo dos alimentos, fortalecendo a educação 
         ambiental e o cuidado com o meio ambiente. ODS12 ODS13`,
-        imagem: "/assets/carrossel1.png"
+        imagem: "/assets/compostagem.jpeg"
     },
     
     {
@@ -84,12 +84,12 @@ export default function NossosProjetos() {
                 {/* Imagem com setas */}
                 <div className="flex flex-col items-center mb-4">
                     {/* Container fixo da imagem + setas */}
-                    <div className="relative w-full max-w-6xl h-[300px] rounded-xl overflow-hidden shadow-xl">
+                    <div className="relative w-full max-w-6xl h-[700px] rounded-xl overflow-hidden shadow-xl">
                         <Image
                             src={projeto.imagem}
                             alt={projeto.titulo}
                             width={1200}
-                            height={500}
+                            height={700}
                             className="w-full h-full object-cover"
                         />
 

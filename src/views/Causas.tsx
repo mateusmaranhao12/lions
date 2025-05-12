@@ -56,7 +56,7 @@ export default function Causas() {
         {
             nome: 'Saúde Mental',
             slug: 'SaudeMental',
-            icone: '/assets/causas8.png',
+            icone: '/assets/causas9.png',
             fundo: '/assets/visao.jpg',
         },
     ]
