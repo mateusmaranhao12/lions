@@ -48,7 +48,7 @@ const projetos = [
         do contato com a natureza, do cuidado com a terra e da valorização do ciclo da vida. 
         A atividade favorece a redução do estresse, o senso de propósito e a conexão com o 
         meio ambiente. ODS03`,
-        imagem: "/assets/carrossel5.png"
+        imagem: "/assets/carrossel5.jpg"
     },
 
     {
