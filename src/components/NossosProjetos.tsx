@@ -11,7 +11,7 @@ const projetos = [
         destinado aos aterros e promovendo práticas sustentáveis. Essa ação contribui 
         para o ciclo de reaproveitamento completo dos alimentos, fortalecendo a educação 
         ambiental e o cuidado com o meio ambiente. ODS12 ODS13`,
-        imagem: "/assets/compostagem.jpeg"
+        imagem: "/assets/compostagem.png"
     },
     
     {
