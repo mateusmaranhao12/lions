@@ -8,6 +8,8 @@ export default function NossosPatrocinadores() {
         { src: "/assets/p2.png", alt: "Patrocinador 2" },
         { src: "/assets/p3.png", alt: "Patrocinador 3" },
         { src: "/assets/p4.png", alt: "Patrocinador 4" },
+        { src: "/assets/p5.png", alt: "Patrocinador 5" },
+        { src: "/assets/p6.png", alt: "Patrocinador 6" },
     ]
 
     return (
@@ -20,8 +22,8 @@ export default function NossosPatrocinadores() {
                             key={index}
                             src={patrocinador.src}
                             alt={patrocinador.alt}
-                            width={300}
-                            height={300}
+                            width={250}
+                            height={250}
                             className="object-contain rounded-full"
                         />
                     ))}

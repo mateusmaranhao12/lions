@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
                     <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
                         <Link href="/" className="cursor-pointer flex items-center gap-2">
                             <Image src="/assets/logo_white.png" alt="Logo" width={40} height={40} />
-                            <span className="font-bold text-lg">LionsBerthaLutz</span>
+                            <span className="font-bold text-lg">Lions Bertha Lutz</span>
                         </Link>
                     </div>
 

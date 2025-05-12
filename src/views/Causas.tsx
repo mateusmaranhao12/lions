@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function Causas() {
     const causas = [
         {
-            nome: 'Juventude de LCIF',
+            nome: 'Juventude',
             slug: 'Juventude',
             icone: '/assets/causas1.png',
             fundo: '/assets/juventude.jpg',
