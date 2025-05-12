@@ -31,5 +31,4 @@ export default function NossosPatrocinadores() {
             </div>
         </section>
     )
-
 }
