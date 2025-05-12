@@ -11,7 +11,7 @@ const projetos = [
         destinado aos aterros e promovendo práticas sustentáveis. Essa ação contribui 
         para o ciclo de reaproveitamento completo dos alimentos, fortalecendo a educação 
         ambiental e o cuidado com o meio ambiente. ODS12 ODS13`,
-        imagem: "/assets/compostagem.png"
+        imagem: "/assets/1.png"
     },
     
     {
@@ -19,7 +19,7 @@ const projetos = [
         descricao: `O projeto Mesa Farta Sem Desperdício garante segurança alimentar e nutricional 
         a pessoas em situação de vulnerabilidade e em situação de rua, promovendo a doação de alimentos 
         saudáveis e nutritivos a instituições parceiras, com apoio de redes de supermercados. ODS2, ODS17`,
-        imagem: "/assets/carrossel2.png"
+        imagem: "/assets/2.png"
     },
 
     {
@@ -29,7 +29,7 @@ const projetos = [
         unindo criatividade e consciência ambiental. A iniciativa dá novo propósito ao 
         que seria lixo, promovendo a sustentabilidade e o cuidado com o planeta. 
         ODS01, ODS04, ODS12, ODS13 `,
-        imagem: "/assets/carrossel3.png"
+        imagem: "/assets/3.png"
     },
 
     {
@@ -38,7 +38,7 @@ const projetos = [
         envolve jovens em ações de educação ambiental, segurança alimentar e responsabilidade social. 
         Por meio de oficinas, vivências e voluntariado, a iniciativa fortalece o protagonismo juvenil 
         e forma agentes de transformação comprometidos com a sustentabilidade. ODS04, ADS05, ODS10`,
-        imagem: "/assets/carrossel4.png"
+        imagem: "/assets/4.png"
     },
 
     {
@@ -48,7 +48,7 @@ const projetos = [
         do contato com a natureza, do cuidado com a terra e da valorização do ciclo da vida. 
         A atividade favorece a redução do estresse, o senso de propósito e a conexão com o 
         meio ambiente. ODS03`,
-        imagem: "/assets/carrossel5.jpg"
+        imagem: "/assets/5.png"
     },
 
     {
@@ -58,7 +58,7 @@ const projetos = [
         o uso de espécies nativas e não convencionais na alimentação e nos cuidados com a saúde. 
         A ação promove autonomia alimentar, valorização da biodiversidade e 
         educação ambiental. ODS11, ODS15`,
-        imagem: "/assets/carrossel6.png"
+        imagem: "/assets/6.png"
     },
 ];
 
