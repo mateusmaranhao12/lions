@@ -5,7 +5,7 @@ export default function NossosPatrocinadores() {
 
     const registros = [
         { src: "/assets/rd1.png", alt: "Instagram", link: "https://www.instagram.com/lionsajuberthalutz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" },
-        { src: "/assets/rd2.png", alt: "TikTok", link: "#" },
+        { src: "/assets/rd2.png", alt: "TikTok", link: "https://www.tiktok.com/@lionsajuberthalutz" },
         { src: "/assets/rd3.png", alt: "YouTube", link: "https://www.youtube.com/@lionsclubearacajuberthalut684" },
     ]
 

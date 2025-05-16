@@ -18,22 +18,14 @@ export default function Cancer() {
 
                 {/* Conteúdo centralizado */}
                 <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-0 text-center">
-                    <h2 className="text-3xl md:text-6xl font-bold mb-6">Causa - Câncer</h2>
+                    <h2 className="text-3xl md:text-6xl font-bold mb-6">Causa - Combate ao câncer infantil</h2>
                     <p className="text-sm md:text-2xl leading-relaxed text-justify mb-4">
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                        Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                        sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-                        Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
-                        commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
-                        ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-                    </p>
-                    <p className="text-sm md:text-2xl leading-relaxed text-justify">
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                        Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                        sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-                        Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
-                        commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
-                        ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+                        O Lions Clube Aracaju Bertha Lutz, por meio do projeto Mesa Farta Sem Desperdício, 
+                        conecta-se à prioridade global do Lions International de combate ao câncer infantil 
+                        ao doar alimentos à AMO - Associação Amigos da Oncologia em Aracaju. Essa ação local 
+                        garante nutrição vital para pacientes em tratamento oncológico, fortalecendo sua saúde 
+                        e bem-estar, em conformidade com o ODS 3.
+
                     </p>
                 </div>
             </section>
