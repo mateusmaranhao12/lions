@@ -3,6 +3,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+
 export default function Humanitarios() {
     return (
         <div className="mx-auto text-white">
@@ -37,11 +42,33 @@ export default function Humanitarios() {
                 </div>
             </section>
 
-            {/* Galeria de imagens */}
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 py-10 px-4">
-                <Image src="/assets/imagem1.png" alt="Projeto 1" width={400} height={300} className="rounded-lg object-cover w-full h-64" />
-                <Image src="/assets/imagem1.png" alt="Projeto 2" width={400} height={300} className="rounded-lg object-cover w-full h-64" />
-                <Image src="/assets/imagem1.png" alt="Projeto 3" width={400} height={300} className="rounded-lg object-cover w-full h-64" />
+            {/* Carrossel automático de imagens */}
+            <div className="max-w-6xl aspect-[12/7] w-full mx-auto py-10 px-4">
+                <Swiper
+                    modules={[Autoplay, Pagination]}
+                    spaceBetween={20}
+                    slidesPerView={1}
+                    autoplay={{ delay: 3000, disableOnInteraction: false }}
+                    pagination={{ clickable: true }}
+                    loop={true}
+                    className="rounded-lg overflow-hidden"
+                >
+                    <SwiperSlide>
+                        <Image src="/assets/humanitarios1.png" alt="Projeto 1" width={800} height={200} className="w-full object-cover" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src="/assets/humanitarios2.png" alt="Projeto 2" width={800} height={200} className="w-full object-cover" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src="/assets/humanitarios3.png" alt="Projeto 3" width={800} height={200} className="w-full object-cover" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src="/assets/humanitarios4.png" alt="Projeto 3" width={800} height={200} className="w-full object-cover" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src="/assets/humanitarios5.png" alt="Projeto 3" width={800} height={200} className="w-full object-cover" />
+                    </SwiperSlide>
+                </Swiper>
             </div>
 
             {/* Botão de voluntário */}
