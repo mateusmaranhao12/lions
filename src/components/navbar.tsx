@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
 
     return (
         <>
-            <nav className="relative z-10 text-white px-4 py-4 sm:px-6 md:px-10">
+            <nav className="relative z-10 text-white px-4 py-4 sm:px-6 md:px-10 shadow-[4px_4px_20px_4px_rgba(0,0,0,0.4)]">
                 {/* Fundo com imagem */}
                 <div className="absolute inset-0 z-0 opacity-90 bg-cover bg-center"
                     style={{ backgroundImage: "url('/assets/nav_footer.png')" }}></div>

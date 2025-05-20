@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="relative z-10 text-white py-6 px-4 sm:px-10">
+    <footer className="relative z-10 text-white py-6 px-4 sm:px-10 shadow-[4px_4px_20px_4px_rgba(0,0,0,0.4)]">
       {/* Fundo com imagem escura sobreposta */}
       <div className="absolute inset-0 z-0 opacity-90 bg-cover bg-center"
         style={{ backgroundImage: "url('/assets/nav_footer.png')" }}></div>

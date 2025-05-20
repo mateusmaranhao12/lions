@@ -24,7 +24,7 @@ export default function NossosPatrocinadores() {
                             alt={patrocinador.alt}
                             width={250}
                             height={250}
-                            className="object-contain rounded-full shadow-[4px_4px_20px_4px_rgba(255,255,255,0.6)] transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+                            className="object-contain rounded-full shadow-[4px_4px_20px_4px_rgba(0,0,0,0.4)] transition-all duration-300 hover:-translate-y-2 cursor-pointer"
                         />
                     ))}
                 </div>

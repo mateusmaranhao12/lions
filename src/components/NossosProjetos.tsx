@@ -13,7 +13,7 @@ const projetos = [
         ambiental e o cuidado com o meio ambiente. ODS12 ODS13`,
         imagem: "/assets/1.png"
     },
-    
+
     {
         titulo: "Mesa Farta Sem Desperdício - Segurança Alimentar e Nutricional",
         descricao: `O projeto Mesa Farta Sem Desperdício garante segurança alimentar e nutricional 
@@ -85,7 +85,7 @@ export default function NossosProjetos() {
                 <div className="flex flex-col items-center mb-4">
                     {/* Container fixo da imagem + setas */}
                     <div className="relative w-full max-w-6xl aspect-[12/7] rounded-lg overflow-hidden shadow-xl">
-                    <Image
+                        <Image
                             src={projeto.imagem}
                             alt={projeto.titulo}
                             width={1200}

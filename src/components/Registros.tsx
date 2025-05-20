@@ -25,7 +25,7 @@ export default function NossosPatrocinadores() {
                                 alt={registro.alt}
                                 width={400}
                                 height={400}
-                                className="object-contain cursor-pointer hover:scale-110 transition-transform duration-200"
+                                className="object-contain cursor-pointer hover:scale-110 transition-transform duration-200 shadow-[4px_4px_20px_4px_rgba(0,0,0,0.6)]"
                             />
                         </a>
                     ))}
